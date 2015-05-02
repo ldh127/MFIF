@@ -1,12 +1,5 @@
 #include "img_fusion_dialog.h"
 #include "ui_img_fusion_dialog.h"
-#include <QFileDialog>
-#include <QMessageBox>
-#include <QLineEdit>
-#include <QPixmap>
-#include <QTextBrowser>
-#include <QImage>
-#include <QDir>
 img_fusion_Dialog::img_fusion_Dialog(QWidget *parent) :
     QDialog(parent),                                                                //QDialog是基类，先初始化基类成员
     ui(new Ui::img_fusion_Dialog),

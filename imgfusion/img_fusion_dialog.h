@@ -2,6 +2,10 @@
 #define IMG_FUSION_DIALOG_H
 
 #include <QDialog>
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QImage>
+#include <QDir>
 namespace Ui {
 class img_fusion_Dialog;
 }
