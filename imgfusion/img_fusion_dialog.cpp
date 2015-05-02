@@ -141,14 +141,6 @@ void img_fusion_Dialog::getFusionParaFromConf(fusionPara *&pFusionPara)const
 //图像融合
 bool img_fusion_Dialog::imageFusion(MyImage *&pMyImage1,MyImage *&pMyImage2,MyImage *&pMyImageDest,fusionPara *&pFusionPara)
 {
-    if(pFusionPara->method=="Wavelet")
-    {
-
-    }
-    if(pFusionPara->method=="Shearlet")
-    {
-
-    }
     return true;
 }
 //打印图像评价结果

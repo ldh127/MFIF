@@ -13,10 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        img_fusion_dialog.cpp \
-    myimage.cpp
+        img_fusion_dialog.cpp
 
-HEADERS  += img_fusion_dialog.h \
-    myimage.h
+HEADERS  += img_fusion_dialog.h
 
 FORMS    += img_fusion_dialog.ui
